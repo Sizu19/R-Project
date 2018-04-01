@@ -1,0 +1,19 @@
+Package: fars
+Title: Read Fatality Analysis Reporting System (FARS) data
+Version: 0.0.0.3
+Authors@R: person("Shounak", "P",email = "testemail@gmail.com", role = c("aut", "cre"))
+Description: COURSERA: BUILDING R PACKAGES, Peer-graded Assignment.
+Depends: R (>= 3.3.3)
+License: GPL-3
+LazyData: true
+RoxygenNote: 6.0.1
+Imports:
+   dplyr,
+   maps,
+   readr,
+   tidyr,
+   magrittr
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
